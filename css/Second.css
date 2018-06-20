@@ -1,0 +1,174 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.myList h1 {
+    margin: 0;
+}
+
+.navlist {
+    padding: 0;
+    margin: 0;
+}
+
+.navlist a:hover {
+    background-color: #e26e6e;
+}
+
+.myList,
+li a {
+    text-align: center;
+    background-color: #768348;
+    color: #ffffff;
+}
+
+.navlist a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+}
+
+.footer {
+    font-family: fantasy;
+    color: #dbe480;
+    background-color: #768348;
+    text-align: center;
+    height: 40px;
+}
+.footer span{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: cursive;
+}
+.warp {
+    min-height: calc(100vh - 40px);
+}
+
+/*=================================================*/
+
+.Col p {
+    padding: 5px 5px;
+    margin: 0;
+}
+
+.Col {
+    text-align: center;
+    margin: 15px 0;
+    font-family: fantasy;
+    font-size: 15px;
+    margin: 15px;
+}
+
+strong {
+    display: block;
+    font-size: 25px;
+    font-family: cursive;
+    background-color: #cc7000
+}
+
+.img-1 {
+    background: url(../images/architecture-blue-sky-cliff-248771.jpg);
+}
+
+.img-2 {
+    background: url(../images/action-adventure-alps-238622.jpg);
+}
+
+.img-3 {
+    background: url(../images/adventure-alps-clouds-206353.jpg);
+}
+
+.img-4 {
+    background: url(../images/aerial-clouds-dawn-206660.jpg);
+}
+
+.img-5 {
+    background: url("../images/agriculture-asia-china-235648.jpg");
+}
+
+.img-6 {
+    background: url("../images/back-view-clouds-cloudy-458555.jpg");
+}
+
+.Img {
+    height: 200px;
+    background-size: cover;
+}
+
+.col-1 {
+    background-color: #FF7E40;
+}
+
+.col-2 {
+    background-color: #00AB6F;
+}
+
+.col-3 {
+    background-color: #580EAD;
+}
+
+.col-4 {
+    background-color: #B90091;
+}
+
+.col-5 {
+    background-color: #BAF300;
+}
+
+.col-6 {
+    background-color: #1D8C00;
+}
+
+.container {
+    background-color: #768348;
+    border-radius: 15px;
+}
+
+/*================媒体查询===========================*/
+
+@media (min-width:600px) {
+    .myList {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        height: 70px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .navlist {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .navlist li a {
+        height: 70px;
+        line-height: 70px;
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+    .navlist li a:hover {
+        position: relative;
+        top: 10px;
+        border-radius: 15px;
+        background-color: aqua;
+    }
+    .Img {
+        height: 600px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .Col strong {
+        font-size: 40px;
+    }
+    .Col p {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,185 @@
+/*重置样式*/
+*{
+    list-style-type:none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+.navButton{
+    float: left;
+    height: 45px;
+    padding: 5px;
+}
+.logo{
+    display:block;
+    clear: both;
+    height: 150px;
+    margin: auto;
+}
+.myList h1{
+    margin: 0;
+}
+.myList,li a{
+    font-family:serif;
+    text-align: center;
+    background-color: darkslategrey;
+    color:#d0f86f;
+    text-shadow: 0.5px 0.5px 0.4px black;
+}
+.navlist{
+    padding: 0;
+    margin: 0;
+}
+li a{
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    
+}
+li a:hover{
+    background-color: #ff9b73;
+}
+.footer{
+    text-align: center;
+    color:#DF4945;
+    background-color: darkslategrey;
+    
+}
+.footer span{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: cursive;
+}
+.warp{
+     min-height: calc(100vh - 5px);
+/*    darkslategrey*/
+    background-color:#006363
+}
+section .LOGO{
+    background-color: darkslategrey;
+}
+.neirong_1{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: 4A8415;
+    border-radius: 20px;
+    margin: 10px;
+}
+.jQuery{
+    background-color: cadetblue;
+}
+.PHP{
+    background-color: #C63D69;
+    border: 2px solid pi;
+}
+.JavaScript{
+    background-color: #8670CE;
+}
+.CSS{
+    background-color: chocolate;
+}
+.lastSection{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.goToTop{
+    border: 2px solid #009E8E;
+    padding: 2px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+.more{
+    color: chocolate;
+    font-family:cursive;
+    font-size: 1.5rem;
+}
+.more:hover{
+    text-decoration:underline;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+.more:active{
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+}
+.goToTop:hover{
+    background-color:black;
+    color: white;
+}
+.banner{
+    background: url(../logo/%E7%B4%A0%E6%9D%9003-2.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    line-height: 350px;  
+}
+.banner h3{
+    height: 20px;
+    margin: 0 0 20px 0;
+    font-family: '楷体';
+    font-size: 30px;
+    color:#ffffff;
+}
+/*===================媒体查询==============*/
+@media (min-width:600px){
+    .myList{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack:distribute;
+        justify-content:space-around;
+        -webkit-box-align:center;
+        -ms-flex-align:center;
+        align-items:center;
+        margin: 0 0 12px 0;
+        height: 100px;
+    }
+    .myList, .navlist li a{
+        font-size: 20px;
+        color: #ffdb00;
+    }
+    .logo{
+        height: 300px;
+        padding: 5px;
+    }
+    .navlist{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        
+    }
+    .navButton{
+        height: 60px;
+        width: 60px;
+    }
+    li a{
+        border-radius: 15px;
+        padding: 5px 30px;
+    }
+    li a:hover{
+        -webkit-box-shadow: 2px 2px 1px black;
+        box-shadow: 2px 2px 1px black;
+        position: relative;
+        top: 10px;
+    }
+    #container{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .neirong_1{
+        font-family:cursive;
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    .neirong_1:hover{
+        -webkit-box-shadow: 5px 5px 5px black;
+        box-shadow: 5px 5px 5px black;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+}

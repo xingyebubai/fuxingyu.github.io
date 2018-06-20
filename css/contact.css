@@ -1,0 +1,25 @@
+body {
+    background: -webkit-gradient(linear, left top, right top, from(#f64f59), color-stop(#c471ed), to(#12c2e9));
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+   
+}
+p{
+    display: inline;
+    margin: 0;
+}
+section{
+    margin-top: 10px;
+    text-align: center;
+    height: 200px;
+    line-height: 50px;
+}
+.goToHome a{
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 20px;
+    color: aqua;
+}
+.goToHome a:hover{
+    color: pink;
+    text-decoration:underline;
+}
