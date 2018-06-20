@@ -37,9 +37,9 @@ $('.PHP,.JavaScript,.CSS,.banner').hide()
 //    }
    
 
-var mq600 = window.matchMedia("(min-width:600px)");
-function mediaQueryReset(mq600){
-    if (mq600.matches) {
+var mq750 = window.matchMedia("(min-width:750px)");
+function mediaQueryReset(mq750){
+    if (mq750.matches) {
         $('.navButton').hide()
         $('.navlist').show()
         $('.navButton').transition({ y: 0 }, 500, 'linear')
@@ -50,8 +50,8 @@ function mediaQueryReset(mq600){
     
 }
 
-mediaQueryReset(mq600)
-mq600.addListener(mediaQueryReset)
+mediaQueryReset(mq750)
+mq750.addListener(mediaQueryReset)
 
 
     /*====================="展开"按钮=======================*/
@@ -67,7 +67,7 @@ $('.spread').click(function(){
             button.textContent = '展开全部';           
             $('.navButton').transition({ y: 0 }, 500, 'linear')
             $('.jQuery,.PHP,.JavaScript,.CSS').slideUp(600)
-            if ($(window).width() <= 600){
+            if ($(window).width() <= 750){
                 $('.navlist').hide(600).slideUp()
             }
         }
