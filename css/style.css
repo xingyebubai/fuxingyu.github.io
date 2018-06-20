@@ -124,7 +124,8 @@ section .LOGO{
     color:#ffffff;
 }
 /*===================媒体查询==============*/
-@media (min-width:1000px){
+@media screen and (min-width:700px){
+    
     .myList{
         display: -webkit-box;
         display: -ms-flexbox;

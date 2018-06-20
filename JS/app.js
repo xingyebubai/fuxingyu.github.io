@@ -37,7 +37,7 @@ $('.PHP,.JavaScript,.CSS,.banner').hide()
 //    }
    
 
-var mq750 = window.matchMedia("(min-width:1000px)");//750修改为1000
+var mq750 = window.matchMedia("(min-width:700px)");//750修改为700
 function mediaQueryReset(mq750){
     if (mq750.matches) {
         $('.navButton').hide()
@@ -67,7 +67,7 @@ $('.spread').click(function(){
             button.textContent = '展开全部';           
             $('.navButton').transition({ y: 0 }, 500, 'linear')
             $('.jQuery,.PHP,.JavaScript,.CSS').slideUp(600)
-            if ($(window).width() <= 1000){
+            if ($(window).width() <= 700){
                 $('.navlist').hide(600).slideUp()
             }
         }
