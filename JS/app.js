@@ -19,25 +19,9 @@ $('.PHP,.JavaScript,.CSS,.banner').hide()
         
     })
     
-//}
-//else
-//    {
-//        $('.navButton').click(function(){
-//            if($('.navlist').css('display') === 'none')
-//                {
-//                    $('.navlist').show(500).slideDown()
-//                    $('.navButton').transition({ x: -10 }, 400, 'linear')
-//                }
-//            else
-//                {
-//                    $('.navlist').hide(500).slideUp()
-//                    $('.navButton').transition({ x: 0 }, 400, 'linear')
-//                }
-//        })
-//    }
    
 
-var mq750 = window.matchMedia("(min-width:800px)");//750修改为800
+var mq750 = window.matchMedia("(min-width:900px)");//750修改为900
 function mediaQueryReset(mq750){
     if (mq750.matches) {
         $('.navButton').hide()
@@ -67,7 +51,7 @@ $('.spread').click(function(){
             button.textContent = '展开全部';           
             $('.navButton').transition({ y: 0 }, 500, 'linear')
             $('.jQuery,.PHP,.JavaScript,.CSS').slideUp(600)
-            if ($(window).width() <= 800){
+            if ($(window).width() <= 900){
                 $('.navlist').hide(600).slideUp()
             }
         }

@@ -52,7 +52,6 @@ li a:hover{
 }
 .warp{
      min-height: calc(100vh - 5px);
-/*    darkslategrey*/
     background-color:#006363
 }
 section .LOGO{
@@ -124,7 +123,7 @@ section .LOGO{
     color:#ffffff;
 }
 /*===================媒体查询==============*/
-@media screen and (min-width:800px){
+@media screen and (min-width:900px){
     
     .myList{
         display: -webkit-box;
